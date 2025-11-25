@@ -43,7 +43,7 @@ if uploaded_file is not None:
                 
                 # We use the specific Gemini 3 Vision model
                 # Fallback to Gemini 1.5 Pro if 3 is busy/unavailable in your region
-                model = genai.GenerativeModel('emini-3-pro-image-preview') 
+                model = genai.GenerativeModel('gemini-3-pro-image-preview') 
 
                 # The "Toy Factory" Prompt
                 prompt = """
